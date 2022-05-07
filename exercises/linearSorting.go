@@ -8,7 +8,7 @@ import (
 // var start time.Time
 func timeMeasurement(start time.Time) {
 	elapsed := time.Since(start)
-	fmt.Printf("Execution time: %s", elapsed)
+	fmt.Printf(s"Execution time: %s", elapsed)
 }
 
 func NowAsUnixMilli() int64 {
